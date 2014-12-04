@@ -1,12 +1,12 @@
 mint2db
 =======
 
-Import your mint.com transactions into a local SQLite database
+Import your Mint.com transactions into a local SQLite database
 
 How to use
 ----------
 
-Quite simply, run:
+Install [Docker](https://www.docker.com) and, run:
 
 ```
 docker run -e MINT_USERNAME=youremail -e MINT_PASSWORD=yourpass srid/mint2db | sqlite3 db.sqlite3
